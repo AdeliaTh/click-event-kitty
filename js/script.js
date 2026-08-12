@@ -6,9 +6,13 @@ var cat = document.querySelector(".cat");
 //console.log(button.outerHTML);
 
 button.addEventListener("click", function () {
-    //button.innerText = "It's working";
-    //console.log(button.innerText);
-    cat.classList.add("show");
+    if (cat.classList.contains("show")) {
+        cat.classList.remove("show");
+        //console.log("Yes!");
+    } else {
+        cat.classList.add("show");
+        //console.log("No.");
+    }
 });
 
 
