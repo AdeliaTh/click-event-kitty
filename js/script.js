@@ -6,7 +6,20 @@ var cat = document.querySelector(".cat");
 //console.log(button.outerHTML);
 
 button.addEventListener("click", function () {
-    button.innerText = "It's working";
+    //button.innerText = "It's working";
+    //console.log(button.innerText);
+    cat.classList.add("show");
 });
+
+
+
+
+
+
+
+
+
+
+
+
 //console.log(button.outerHTML);
-console.log(button.innerText);
