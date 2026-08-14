@@ -19,15 +19,3 @@ button.addEventListener("click", function () {
     }
 });
 
-
-
-
-
-
-
-
-
-
-
-
-//console.log(button.outerHTML);
